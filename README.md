@@ -13,7 +13,7 @@ CSI{XXXX_XXXX}
 `strings` displays all the printable strings present in a given file. <br>
 This tool is available by default in linux and requires no installation.
 
-![Demo](demo.mp4)
+![Demo](demo.gif)
 
 
 
