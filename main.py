@@ -1,5 +1,6 @@
 encoded_string = list(input("Enter the Encoded String >> "))
 
+print("\nDecoded Strings: \n")
 for key in range(1, 26):
     decoded_string = []  
     for char in encoded_string:
@@ -12,7 +13,7 @@ for key in range(1, 26):
             decoded_string.append(chr(ord(char) + key - error_correction))
         else:
             decoded_string.append(char)
-    print(''.join(decoded_string))            
+    print(f"{key}. " + ''.join(decoded_string))            
 
 
             
